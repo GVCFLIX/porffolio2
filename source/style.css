@@ -1,15 +1,27 @@
+/* for nav  */
+  /* for icon  */
+    .mk-icon{
+        font-size: 40px;
+    }
+  /* for icon  */
+
+.mk-nav-a{
+    font-size: 20px;
+}
+/* for nav  */
+
 /* for banner  */
 .banners{
     height: 100vh;
     background: linear-gradient(
         20deg,
-        rgb(3, 2, 2) 30%,
-        rgb(4, 4, 39) 30%,
+        steelblue 20%,
+        rgb(46, 60, 75) 10%
     );
     background-size: 5%;
-    transition: all .5s;
+    transition: 0.5s;
 }
 .banners:hover{
     background-size: 5.5%;
     background-position: center;
-}  
+}   
