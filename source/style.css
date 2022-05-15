@@ -1,7 +1,7 @@
 /* for nav  */
   /* for icon  */
     .mk-icon{
-        font-size: 40px;
+        font-size: 30px;
     }
   /* for icon  */
 
@@ -11,13 +11,17 @@
 /* for nav  */
 
 /* for banner  */
+.mk-banner-p{
+    font-size: 20px;
+}
 .banners{
     height: 100vh;
     background: linear-gradient(
         20deg,
-        steelblue 20%,
-        rgb(46, 60, 75) 10%
+        rgb(20, 38, 197) 20%,
+        rgb(110, 159, 204) 10%
     );
+    
     background-size: 5%;
     transition: 0.5s;
 }
@@ -25,3 +29,10 @@
     background-size: 5.5%;
     background-position: center;
 }   
+
+/* for about me section  */
+  /* for exp section  */
+  .mk-exp-container{
+      height: auto;
+      background-color: red;
+  }
