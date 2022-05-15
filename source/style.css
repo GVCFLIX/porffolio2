@@ -31,8 +31,6 @@
 }   
 
 /* for about me section  */
-  /* for exp section  */
-  .mk-exp-container{
-      height: auto;
-      background-color: red;
-  }
+#about{
+    height: 100vh;
+}
