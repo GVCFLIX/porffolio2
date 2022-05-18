@@ -28,9 +28,4 @@
 .banners:hover{
     background-size: 5.5%;
     background-position: center;
-}   
-
-/* for about me section  */
-#about{
-    height: 100vh;
-}
+}  
