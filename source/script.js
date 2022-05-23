@@ -1,1 +1,3 @@
-console.log('hay i am working');
+const autoyear = document.getElementById('autoyear');
+const getyear = new Date().getUTCFullYear();
+autoyear.textContent = getyear;
