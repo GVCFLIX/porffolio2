@@ -22,7 +22,7 @@
         <header>
 
             <!-- start nav bar  -->
-                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="mk-nav">
 
                     <a href="index.html" class="navbar-brand mx-3">
                         <h2 class="mk-icon mx-3">Min <span class="text-warning">Khant</span></h2>
@@ -33,7 +33,7 @@
                     <div id="nav" class="navbar-collapse collapse justify-content-end">
 
                         <ul class="navbar-nav px-3 mx-5 text-uppercase">
-                            <li class="nav-item"><a href="index.html" class="nav-link mk-nav-a">Home <i class="fa-solid fa-house"></i> </a></li>
+                            <li class="nav-item"><a href="#home" class="nav-link mk-nav-a">Home <i class="fa-solid fa-house"></i> </a></li>
                             <li class="nav-item"><a href="#about" class="nav-link mk-nav-a">About <i class="fa-solid fa-user"></i> </a></li>
                             <li class="nav-item"><a href="#certificate" class="nav-link mk-nav-a">Certificate <i class="fa-solid fa-certificate"></i> </a></li>
                             <li class="nav-item"><a href="#contact" class="nav-link mk-nav-a">Contact <i class="fa-solid fa-paper-plane"></i> </a></li>
@@ -51,7 +51,7 @@
             <!-- end nav bar  -->
 
             <!-- start banner  -->
-                <section> 
+                <section id="home"> 
                     
                     <div class="container-fluid">
                         <div class="row justify-content-center align-items-center text-light banners">
@@ -64,7 +64,7 @@
                                     when an unknown printer took a galley of type and scrambled it to make a type
                                     specimen book.
                                 </p>
-                                <a href="#projects" class="btn btn-outline-warning btn-lg my-3">My Projects</a>
+                                <a href="./source/projects.html" target="_blank" class="btn btn-outline-warning btn-lg my-3">My Projects</a>
                             </div>
                         </div>
                     </div>
@@ -335,6 +335,12 @@
         <!-- End Contact Section  -->
 
         <!-- Start footer Section  -->
+
+        <a href="#mk-nav">
+            <div class="arrow">
+                <i class="fa-solid fa-angles-up"></i>
+            </div>
+        </a>
 
             <footer class="bg-dark py-3">
 
